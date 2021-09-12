@@ -13,7 +13,6 @@
 		BAC5B0A226EB8890003934AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC5B0A126EB8890003934AF /* ContentView.swift */; };
 		BAC5B0A426EB8896003934AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAC5B0A326EB8896003934AF /* Assets.xcassets */; };
 		BAC5B0A726EB8896003934AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAC5B0A626EB8896003934AF /* Preview Assets.xcassets */; };
-		BAC5B0B026EB907A003934AF /* Alumni_Sans in Resources */ = {isa = PBXBuildFile; fileRef = BAC5B0AF26EB907A003934AF /* Alumni_Sans */; };
 		BAC5B0B326EB922A003934AF /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC5B0B226EB922A003934AF /* NewView.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +25,6 @@
 		BAC5B0A326EB8896003934AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAC5B0A626EB8896003934AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BAC5B0A826EB8896003934AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAC5B0AF26EB907A003934AF /* Alumni_Sans */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Alumni_Sans; sourceTree = "<group>"; };
 		BAC5B0B226EB922A003934AF /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +58,6 @@
 		BAC5B09E26EB8890003934AF /* classic03 */ = {
 			isa = PBXGroup;
 			children = (
-				BAC5B0AF26EB907A003934AF /* Alumni_Sans */,
 				BAC5B09F26EB8890003934AF /* classic03App.swift */,
 				BAC5B0A126EB8890003934AF /* ContentView.swift */,
 				BAC5B0B226EB922A003934AF /* NewView.swift */,
@@ -138,7 +135,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAC5B0B026EB907A003934AF /* Alumni_Sans in Resources */,
 				BAC5B0A726EB8896003934AF /* Preview Assets.xcassets in Resources */,
 				BAC5B0A426EB8896003934AF /* Assets.xcassets in Resources */,
 			);

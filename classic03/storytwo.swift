@@ -25,6 +25,8 @@ struct storytwo: View {
             Rectangle()
                 .frame(height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .frame(maxWidth:.infinity)
+                .cornerRadius(20)
+                .foregroundColor(Color(#colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)))
         }
     }
 }

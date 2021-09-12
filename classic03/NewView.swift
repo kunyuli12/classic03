@@ -10,16 +10,14 @@ import SwiftUI
 struct NewView: View {
     var body: some View {
         TabView{
+            storyone()
+            storytwo()
             RoundedRectangle(cornerRadius: 30)
                 .fill(Color(#colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1)))
                 .padding()
-                //.tabItem {Image(systemName:"moon.fill")}
             RoundedRectangle(cornerRadius: 30)
                 .fill(Color(#colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)))
                 .padding()
-               // .tabItem {Image(systemName:"moon")}
-            storyone()
-            storytwo()
         }.tabViewStyle(PageTabViewStyle())
     }
 }
