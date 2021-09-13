@@ -1,29 +1,30 @@
 //
-//  storytwo.swift
+//  storyfour.swift
 //  classic03
 //
-//  Created by 暨大附中4 on 2021/9/11.
+//  Created by 暨大附中4 on 2021/9/12.
 //
 
 import SwiftUI
 
-struct storytwo: View {
+struct storyfour: View {
     @State var onoffbuttom = true
     var body: some View {
         VStack {
-            Image("imageB2")
+            Image("imageB4")
                 .resizable()
                 .frame(width: 280, height: 280, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(30)
                 .padding(.top,10)
             VStack {
-                Text("認真學習")
-                    .font(.title)
-            Text("專心聽課，了解程式碼中意思，同時也要注意程式碼的順序位置，並要不斷去練習")
+                Text("充足的休息")
+                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                Text("適量的休息可以讓學習效率更好，上課時也能更加專注")
                     .font(.body)
             }
             .frame(width: 230, height: 130, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
             .background(LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)), Color(#colorLiteral(red: 0.7090215904, green: 0.7799301713, blue: 1, alpha: 1))]), startPoint: .top, endPoint: .bottom))
+
             .cornerRadius(20)
             .offset(x:0, y:onoffbuttom ? 400:0)
             HStack {
@@ -43,9 +44,9 @@ struct storytwo: View {
                 VStack {
                     Text("『我是解說員』")
                         .font(.title3)
-                    Text("想再繼續看嗎")
+                    Text("快點點擊我")
                         .font(.body)
-                    Text("就快點擊我吧")
+                    Text("我想下班了")
                         .font(.body)
                 }
                 
@@ -62,12 +63,12 @@ struct storytwo: View {
         .cornerRadius(25)
         .padding(4)
         .ignoresSafeArea()
-        
+        }
     }
-}
 
-struct storytwo_Previews: PreviewProvider {
+
+struct storyfour_Previews: PreviewProvider {
     static var previews: some View {
-        storytwo()
+        storyfour()
     }
 }

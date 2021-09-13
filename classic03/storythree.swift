@@ -1,25 +1,25 @@
 //
-//  storytwo.swift
+//  storythree.swift
 //  classic03
 //
-//  Created by 暨大附中4 on 2021/9/11.
+//  Created by 暨大附中4 on 2021/9/12.
 //
 
 import SwiftUI
 
-struct storytwo: View {
+struct storythree: View {
     @State var onoffbuttom = true
     var body: some View {
         VStack {
-            Image("imageB2")
+            Image("imageB3")
                 .resizable()
                 .frame(width: 280, height: 280, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(30)
                 .padding(.top,10)
             VStack {
-                Text("認真學習")
+                Text("互相交流")
                     .font(.title)
-            Text("專心聽課，了解程式碼中意思，同時也要注意程式碼的順序位置，並要不斷去練習")
+                Text("彼此間可以互相建議語法的用法或者是如何去化簡程式碼等")
                     .font(.body)
             }
             .frame(width: 230, height: 130, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -43,9 +43,9 @@ struct storytwo: View {
                 VStack {
                     Text("『我是解說員』")
                         .font(.title3)
-                    Text("想再繼續看嗎")
+                    Text("還想要看啊")
                         .font(.body)
-                    Text("就快點擊我吧")
+                    Text("就繼續點我吧")
                         .font(.body)
                 }
                 
@@ -66,8 +66,8 @@ struct storytwo: View {
     }
 }
 
-struct storytwo_Previews: PreviewProvider {
+struct storythree_Previews: PreviewProvider {
     static var previews: some View {
-        storytwo()
+        storythree()
     }
 }

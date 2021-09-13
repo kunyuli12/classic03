@@ -12,6 +12,7 @@ struct ContentView: View {
         VStack{
         Text("Hello, world!AlumniSa ns-Italic- Variabl eFont_wgh t.ttf")
             .font(.custom("AlumniSans-Italic-VariableFont_wght.ttf", size: 15))//標題
+       
         Text("描述內容ji  ojj kl jk sc aj kj  fij fs dk j;j kk lljj kj ljl kjf as k;l kl nk jk ;fk;")
             .font(.body)//內文字體 //可以在不同的手機裡做處固定的比例（以這個為主）
             .fontWeight(.medium)
