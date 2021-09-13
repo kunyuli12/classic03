@@ -9,18 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack{
-        Text("Hello, world!AlumniSa ns-Italic- Variabl eFont_wgh t.ttf")
-            .font(.custom("AlumniSans-Italic-VariableFont_wght.ttf", size: 15))//標題
-       
-        Text("描述內容ji  ojj kl jk sc aj kj  fij fs dk j;j kk lljj kj ljl kjf as k;l kl nk jk ;fk;")
-            .font(.body)//內文字體 //可以在不同的手機裡做處固定的比例（以這個為主）
-            .fontWeight(.medium)
-            .frame(width: 200, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-            .lineLimit(3)//限制行數
-            .lineSpacing(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)//行距
-            .multilineTextAlignment(.center)
-        }
+        VStack {
+            Image("B10")
+                .resizable()
+                .frame(width: 250, height: 250, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                .cornerRadius(30)
+                .padding(.top,10)
+            Image("B11")
+                .resizable()
+                .frame(width: 250, height: 250, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                .cornerRadius(30)
+                .padding(.bottom,10)
+                
+        }.frame(maxWidth:.infinity )
+        .frame(maxHeight:.infinity)
+        .background(LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.721568644, green: 0.8862745166, blue: 0.5921568871, alpha: 1)),Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)), Color(#colorLiteral(red: 0.5843137503, green: 0.8235294223, blue: 0.4196078479, alpha: 1))]), startPoint: .top, endPoint: .bottom))
+        .cornerRadius(25)
+        .padding(4)
+        .ignoresSafeArea()
+        
     }
 }
 

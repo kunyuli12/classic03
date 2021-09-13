@@ -11,7 +11,7 @@ struct storytwo: View {
     @State var onoffbuttom = true
     var body: some View {
         VStack {
-            Image("imageB2")
+            Image("B7")
                 .resizable()
                 .frame(width: 280, height: 280, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(30)

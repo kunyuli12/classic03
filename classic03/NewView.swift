@@ -14,6 +14,7 @@ struct NewView: View {
             storytwo()
             storythree()
             storyfour()
+            ContentView()
         }.tabViewStyle(PageTabViewStyle())
     }
 }
